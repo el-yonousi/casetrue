@@ -15,13 +15,12 @@ function dikrCount(card)
     var nb = card.textContent;
     if (nb <= 1)
     {
+        document.querySelector('.read-container').remove();
         // check if container has no child
         if (!content.hasChildNodes())
         {
             location.reload();
         }
-
-        document.querySelector('.read-container').remove();
         return;
     }
     else

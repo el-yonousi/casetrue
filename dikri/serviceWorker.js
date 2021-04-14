@@ -4,8 +4,14 @@ const assets = [
     "index.html",
     "css/style.css",
     "js/app.js",
+    "icons/pwa/1280x720.webp",
     "icons/logo.svg",
-    "icons/pwa/1280x720.webp"
+    "icons/logo.png",
+    "icons/evening.png",
+    "icons/morning.png",
+    "icons/salaat.png",
+    "icons/sleep.png",
+    "icons/wakeup.png"
 ]
 
 self.addEventListener("install", installEvent =>
