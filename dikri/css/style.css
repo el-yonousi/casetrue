@@ -164,15 +164,15 @@ footer a {
 }
 
 @media (max-width: 700px) {
-  body {
+  footer {
     font-size: small;
   }
-  body #container {
+  #container {
     width: 90%;
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    font-size: smaller;
+    font-size: small;
   }
 }
 /*# sourceMappingURL=style.css.map */

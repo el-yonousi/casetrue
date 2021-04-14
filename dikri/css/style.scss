@@ -159,14 +159,14 @@ footer {
 
 // media query
 @media (max-width: 700px) {
-    body {
+    footer {
         font-size: small;
-        #container {
-            width: 90%;
-            margin: auto;
-            padding-top: 100px;
-            padding-bottom: 100px;
-            font-size: smaller;
-        }
+    }
+    #container {
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-size: small;
     }
 }
