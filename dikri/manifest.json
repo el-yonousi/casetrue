@@ -1,11 +1,13 @@
 {
     "theme_color": "#1f1f1f",
     "background_color": "#2f2f2f",
-    "display": "browser",
+    "display": "Standalone",
     "scope": "/",
-    "start_url": "index.html",
+    "start_url": "https://el-yonousi.github.io/dikri/index.html",
+    "dir": "rtl",
+    "lang": "ar",
     "name": "ذكري",
-    "short_name": "ذكري",
+    "short_name": "أذكار المسلم",
     "description": "أذكار المسلم، رمضان، أذكار الصباح، أذكار المساء، أذكار النوم، أذكار الصلاة",
     "prefer_related_applications": "true",
     "icons": [
