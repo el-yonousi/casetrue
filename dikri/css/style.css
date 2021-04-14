@@ -185,10 +185,4 @@ footer a {
     font-size: small;
   }
 }
-
-@media (min-height: 400px) {
-  footer {
-    display: none;
-  }
-}
 /*# sourceMappingURL=style.css.map */

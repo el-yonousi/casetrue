@@ -4,7 +4,7 @@ const assets = [
     "index.html",
     "css/style.css",
     "js/app.js",
-    "icons/logo.png",
+    "icons/logo.svg",
     "icons/pwa/1280x720.webp"
 ]
 
