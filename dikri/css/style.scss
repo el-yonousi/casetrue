@@ -184,3 +184,9 @@ footer {
         font-size: small;
     }
 }
+
+@media (max-height: 700px) {
+    footer{
+        display: none;
+    }
+}
