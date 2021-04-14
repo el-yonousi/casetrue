@@ -33,17 +33,15 @@ function dikrCount(card)
 /*this is a content for body home page*/
 var container =
     `<div class="dikr-container">
-    <div class="dikr-container-buttons">
-        <button class="dikr-button" onclick="listDikr('btn_wakeup');">أذكار الإستيقاظ <img
-      src="icons/wakeup.png"></button>
-        <button class="dikr-button" onclick="listDikr('btn_morning');">أذكار الصباح<img
-      src="icons/morning.png"></button>
-        <button class="dikr-button" onclick="listDikr('btn_evening');">أذكار المساء<img
-      src="icons/evening.png"></button>
+        <div class="dikr-container-buttons">
+        <button class="dikr-button" onclick="listDikr('btn_wakeup');">أذكار الإستيقاظ <img src="icons/wakeup.png"></button>
+        <button class="dikr-button" onclick="listDikr('btn_morning');">أذكار الصباح<img src="icons/morning.png"></button>
+        <button class="dikr-button" onclick="listDikr('btn_evening');">أذكار المساء<img src="icons/evening.png"></button>
         <button class="dikr-button" onclick="listDikr('btn_sleep');">أذكار النوم<img src="icons/sleep.png"></button>
         <button class="dikr-button" onclick="listDikr('btn_salaat');">أذكار الصلاة<img src="icons/salaat.png"></button>
+        </div>
     </div>
-    </div>`;
+  `;
 
 /*this function load body*/
 var content = document.getElementById('container');
