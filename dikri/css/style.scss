@@ -20,55 +20,6 @@ html {
     }
 }
 
-.dikr-container {
-    border: none;
-    font-family: $font-family;
-    font-weight: $font-weight;
-    font-size: $font-size;
-
-    &-buttons {
-        .dikr-button {
-            width: 100%;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right: 16px;
-            border: none;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            display: block;
-            font-size: 20px;
-            text-align: right;
-            font-family: $font-family;
-            font-weight: $font-weight;
-            font-size: $font-size;
-            height: auto;
-
-            img {
-                padding-left: 10px;
-                width: 64px;
-                height: 64px;
-                float: left !important;
-            }
-
-            &:focus {
-                outline: none;
-                box-shadow: none;
-                cursor: pointer;
-            }
-            &:hover {
-                cursor: pointer;
-            }
-        }
-    }
-}
-
-#container {
-    width: 50%;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .header {
     justify-content: center;
     margin: auto;
@@ -97,6 +48,55 @@ html {
     }
 }
 
+#container {
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .dikr-container {
+        border: none;
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: $font-size;
+
+        &-buttons {
+            .dikr-button {
+                width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 16px;
+                border: none;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                display: block;
+                font-size: 20px;
+                text-align: right;
+                font-family: $font-family;
+                font-weight: $font-weight;
+                font-size: $font-size;
+                height: auto;
+
+                img {
+                    padding-left: 10px;
+                    width: 64px;
+                    height: 64px;
+                    float: left !important;
+                }
+
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                    cursor: pointer;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
 /*================= this style for dikr ==================*/
 
 .read-container {
@@ -112,11 +112,12 @@ html {
         height: auto;
         border-radius: 10px;
         background-color: #1f1f1f;
+        font-family: $font-family;
+        font-size: $font-size;
+        font-weight: $font-weight;
 
         p {
             text-align: justify;
-            height: auto;
-            width: auto;
             padding-top: 50px;
             padding-bottom: 50px;
         }
@@ -159,14 +160,27 @@ footer {
 
 // media query
 @media (max-width: 700px) {
-    footer {
-        font-size: small;
-    }
     #container {
         width: 90%;
         margin: auto;
         padding-top: 100px;
         padding-bottom: 100px;
+        font-size: small;
+
+        .read-container {
+            .read-text {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                background-color: #1f1f1f;
+                font-family: $font-family;
+                font-size: large;
+                font-weight: $font-weight;
+            }
+        }
+    }
+
+    footer {
         font-size: small;
     }
 }

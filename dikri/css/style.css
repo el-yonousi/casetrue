@@ -19,55 +19,6 @@ html body {
   font-size: 16pt;
 }
 
-.dikr-container {
-  border: none;
-  font-family: "Cairo", sans-serif;
-  font-weight: 700;
-  font-size: 16pt;
-}
-
-.dikr-container-buttons .dikr-button {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 16px;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  display: block;
-  font-size: 20px;
-  text-align: right;
-  font-family: "Cairo", sans-serif;
-  font-weight: 700;
-  font-size: 16pt;
-  height: auto;
-}
-
-.dikr-container-buttons .dikr-button img {
-  padding-left: 10px;
-  width: 64px;
-  height: 64px;
-  float: left !important;
-}
-
-.dikr-container-buttons .dikr-button:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  cursor: pointer;
-}
-
-.dikr-container-buttons .dikr-button:hover {
-  cursor: pointer;
-}
-
-#container {
-  width: 50%;
-  margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -100,6 +51,55 @@ html body {
   cursor: pointer;
 }
 
+#container {
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#container .dikr-container {
+  border: none;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: 16pt;
+}
+
+#container .dikr-container-buttons .dikr-button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 20px;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: 16pt;
+  height: auto;
+}
+
+#container .dikr-container-buttons .dikr-button img {
+  padding-left: 10px;
+  width: 64px;
+  height: 64px;
+  float: left !important;
+}
+
+#container .dikr-container-buttons .dikr-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  cursor: pointer;
+}
+
+#container .dikr-container-buttons .dikr-button:hover {
+  cursor: pointer;
+}
+
 /*================= this style for dikr ==================*/
 .read-container {
   background-color: #1f1f1f;
@@ -115,12 +115,13 @@ html body {
   height: auto;
   border-radius: 10px;
   background-color: #1f1f1f;
+  font-family: "Cairo", sans-serif;
+  font-size: 16pt;
+  font-weight: 700;
 }
 
 .read-container .read-text p {
   text-align: justify;
-  height: auto;
-  width: auto;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -164,14 +165,23 @@ footer a {
 }
 
 @media (max-width: 700px) {
-  footer {
-    font-size: small;
-  }
   #container {
     width: 90%;
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
+    font-size: small;
+  }
+  #container .read-container .read-text {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    font-family: "Cairo", sans-serif;
+    font-size: large;
+    font-weight: 700;
+  }
+  footer {
     font-size: small;
   }
 }
