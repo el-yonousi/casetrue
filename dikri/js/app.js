@@ -4,7 +4,7 @@ if ("serviceWorker" in navigator)
     {
         navigator.serviceWorker
             .register("serviceWorker.js")
-            .then(res => console.log("service worker registered"))
+            .then(res => console.log("service worker registered", res))
             .catch(err => console.log("service worker not registered", err))
     })
 }
@@ -15,12 +15,13 @@ function dikrCount(card)
     var nb = card.textContent;
     if (nb <= 1)
     {
-        document.querySelector('.read-container').remove();
         // check if container has no child
         if (!content.hasChildNodes())
         {
             location.reload();
         }
+
+        document.querySelector('.read-container').remove();
         return;
     }
     else
