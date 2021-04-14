@@ -1,0 +1,172 @@
+@import "vars";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    a {
+        text-decoration: none;
+    }
+}
+
+html {
+    body {
+        height: $height-100;
+        color: $color;
+        background-color: $primary-color;
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: $font-size;
+    }
+}
+
+.dikr-container {
+    border: none;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+
+    &-buttons {
+        .dikr-button {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 16px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: block;
+            font-size: 20px;
+            text-align: right;
+            font-family: $font-family;
+            font-weight: $font-weight;
+            font-size: $font-size;
+            height: auto;
+
+            img {
+                padding-left: 10px;
+                width: 64px;
+                height: 64px;
+                float: left !important;
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+                cursor: pointer;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#container {
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header {
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding: 16px 0 16px 10px;
+    vertical-align: middle;
+    align-items: center;
+    height: auto;
+    background-color: #1f1f1f;
+
+    img {
+        float: left;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        padding: 16px;
+        cursor: pointer;
+    }
+}
+
+/*================= this style for dikr ==================*/
+
+.read-container {
+    background-color: #1f1f1f;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+
+    .read-text {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        background-color: #1f1f1f;
+
+        p {
+            text-align: justify;
+            height: auto;
+            width: auto;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+
+    .div_click {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 16px;
+        border: 1px #fff solid;
+        border-radius: 16px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #2f2f2f;
+        }
+    }
+}
+
+// footer
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+    a {
+        color: $color;
+    }
+}
+
+::selection {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+// media query
+@media (max-width: 700px) {
+    body {
+        font-size: small;
+        #container {
+            width: 90%;
+            margin: auto;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            font-size: smaller;
+        }
+    }
+}

@@ -4,24 +4,27 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>ذكري</title>
 </head>
 
 <body dir="rtl" onload="loadBody()">
-  <div class="header">
-    <a onclick="location.reload();"><img src="./icons/logo.png" alt="logo">الرئيسية</a>
-  </div>
+  <!-- nav bar -->
+  <nav class="header">
+    <a onclick="location.reload();">الرئيسية</a>
+    <a onclick="location.reload();" class="logo"><img src="./icons/logo.png" alt="logo" width="45" height="45"></a>
+  </nav>
 
   <!--this div containt html from js source-->
   <div id="container">
 
   </div>
 
+  <!-- footer -->
   <footer>
     <div class="footer">
-      <p><a href="https://el-yonousi.github.io/" target="_blank">Developed By EL YONOUSI</a></p>
+      <a href="https://el-yonousi.github.io/" target="_blank">Developed By EL YONOUSI</a>
     </div>
   </footer>
 
