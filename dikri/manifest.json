@@ -6,30 +6,30 @@
     "dir": "rtl",
     "lang": "ar",
     "name": "ذكري",
-    "short_name": "أذكار المسلم",
+    "short_name": "ذكري",
     "description": "أذكار المسلم، رمضان، أذكار الصباح، أذكار المساء، أذكار النوم، أذكار الصلاة",
     "prefer_related_applications": "true",
     "icons": [
         {
-            "src": "https://el-yonousi.github.io/dikri/icons/pwa/icon-192x192.png",
+            "src": "icons/pwa/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable any"
         },
         {
-            "src": "https://el-yonousi.github.io/dikri/icons/pwa/icon-256x256.png",
+            "src": "icons/pwa/icon-256x256.png",
             "sizes": "256x256",
             "type": "image/png",
             "purpose": "maskable any"
         },
         {
-            "src": "https://el-yonousi.github.io/dikri/icons/pwa/icon-384x384.png",
+            "src": "icons/pwa/icon-384x384.png",
             "sizes": "384x384",
             "type": "image/png",
             "purpose": "maskable any"
         },
         {
-            "src": "https://el-yonousi.github.io/dikri/icons/pwa/icon-512x512.png",
+            "src": "icons/pwa/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable any"
@@ -37,7 +37,7 @@
     ],
     "screenshots": [
         {
-            "src": "https://el-yonousi.github.io/dikri/icons/pwa/1280x720.webp",
+            "src": "icons/pwa/1280x720.webp",
             "sizes": "1280x720",
             "type": "image/webp"
         }
