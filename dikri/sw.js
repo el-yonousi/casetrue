@@ -1,11 +1,11 @@
 const staticCacheName = 'site-static-v1';
 const assets = [
   '/',
-  '/index.html',
-  '/assets/js/ui.js',
-  '/assets/css/main.css',
-  '/assets/images/background-home.jpg',
-  'https://fonts.googleapis.com/css?family=Lato:300,400,700',
+  'https://el-yonousi.github.io/dikri/index.html',
+  'https://el-yonousi.github.io/dikri/js/app.js',
+  'https://el-yonousi.github.io/dikri/dikri/css/style.css',
+  'https://el-yonousi.github.io/dikri/icons/logo.png',
+  'https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap',
 ];
 // install event
 self.addEventListener('install', evt =>
