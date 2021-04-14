@@ -186,7 +186,7 @@ footer a {
   }
 }
 
-@media (max-height: 400px) {
+@media (min-height: 400px) {
   footer {
     display: none;
   }
